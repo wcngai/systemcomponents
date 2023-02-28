@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: card-service
-  description: 
+  name: cardservice
+  description: card-service
 spec:
   type: microservice
   owner: none
