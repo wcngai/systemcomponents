@@ -1,9 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: cardservice
-  description: card-service
+  name: demo
+  description: An example deployment of a Backstage application.
+  annotations:
+    github.com/project-slug: backstage/demo
 spec:
-  type: microservice
-  owner: none
-  lifecycle: prod
+  type: website
+  owner: backstage/maintainers
+  lifecycle: experimental
