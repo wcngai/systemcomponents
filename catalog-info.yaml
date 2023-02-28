@@ -1,16 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: card_service
+  name: cardservice
   description: Cards & Lending Domain
 spec:
   owner: artist-relations-team
-  
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: artist-engagement-portal
-  description: Handy tools to keep artists in the loop
-spec:
-  owner: artist-relations-team
-  domain: artists
