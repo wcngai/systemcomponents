@@ -1,10 +1,16 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Domain
 metadata:
-  name: cardservice
-  description: card-service
+  name: card_service
+  description: Cards & Lending Domain
 spec:
-  type: microservice
-  owner: backstage/maintainers
-  lifecycle: experimental
+  owner: artist-relations-team
   
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: artist-engagement-portal
+  description: Handy tools to keep artists in the loop
+spec:
+  owner: artist-relations-team
+  domain: artists
